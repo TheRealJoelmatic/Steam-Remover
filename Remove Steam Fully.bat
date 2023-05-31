@@ -37,6 +37,7 @@ reg delete "HKEY_CURRENT_USER\Software\Valve\Steam" /f
 reg delete "HKEY_CURRENT_USER\Software\Valve\Steam\Settings" /f
 reg delete "HKEY_CURRENT_USER\Software\Valve\Steam\Apps" /f
 reg delete "HKEY_CURRENT_USER\Software\Valve\Steam Beta" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Valve\Steam" /f
 
 echo Complete! Now reinstall steam from https://store.steampowered.com/about/.
 
